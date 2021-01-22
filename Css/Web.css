@@ -1,0 +1,419 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	height:100px;
+
+}
+.div1{
+	position:fixed;
+	background:#ffffff;
+	width:100%;
+	height:73px;
+	z-index:1;
+}
+.l1{
+	font-size:15px;
+	position:relative;
+	top:25px;
+	left:200px;
+	display:inline-block;
+	margin-right:20px;
+	font-family: sans-serif;
+	color:#a1a1a1;
+	transition:0.5s;
+
+}
+.l1:hover{
+	cursor:pointer;
+	color:#38DCC8;
+}
+.d1{
+	position:relative;
+	top:25px;
+	right:250px;
+}
+.i1{
+	margin-right:10px;
+		color:#a1a1a1;
+}
+.div11{
+	/*margin-right:100px;*/
+	display:inline-block;
+}
+#bg{
+	width:100%;
+	/*width:cover;*/
+	height:990px;
+	background-image:url(../Img/Lol.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+}
+.p1{
+	font-family: sans-serif;
+	color:white;
+	font-size: 100px;
+	position:relative;
+	bottom:600px;
+}
+#s1{
+	position:relative;
+	bottom:20px;
+	color:#38dcc8;
+	font-size:120px;
+	font-family:none;
+}
+.s2{
+	color:white;
+	font-size: 25px;
+	position:relative;
+	bottom:600px;
+}
+#Mdiv{
+	position:relative;
+	bottom:170px;
+	background:#38dcc8;
+	width:100%;
+	height:499px;
+}
+#bgi{
+	position:relative;
+	right:130px;
+	height:500px;
+}
+#div2{
+	font-family:sans-serif;
+	color:white;
+	font-size:50px;
+	position:absolute;
+	bottom:100px;
+	right:260px;
+	width:300px;
+	height:300px;
+	border:10px solid white;
+	padding:15px 0 0 15px;
+	box-sizing:border-box;
+}
+#PPP{
+	position:absolute;
+	top:150px;
+	margin:auto;
+}
+#mujik{
+	position:relative;
+	display:inline-block;
+}
+#div3{
+	font-size:17px;
+	color:white;
+	width:350px;
+	height:300px;
+	position:relative;
+	bottom:235px;
+	display:inline-block;	
+}
+#Mdiv2{
+	position:relative;
+	bottom:180px;
+	width:100%;
+	height:850px;
+	background-image:url(../Img/lol2.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+}
+/*ես ռաջ գրելեի հեռավորությունը վերևից մեր պ-ի մեջ իսկ  երկարությունը ու բրձրությունը ինքը մեր ա-ի մեջ վերցնումեր մայր դիվի համար դրա համար առանձին դիվ սարքեցի մայր դիվի մեջ իրան տվեցի պ-ի չափսերը ու հետևաբար մեր հռեֆի չափսերը դարձավ մեր պ-ի չափ*/
+#Sdiv{
+	position:relative;
+	top:150px;
+	width:892px;
+	height:133px;
+}
+.S1{
+	font-size:50px;
+	padding:30px;
+	box-sizing: border-box;
+	background:#91e8dd;
+	width:892px;
+	height:133px;
+	border:10px solid white;
+	font-family:sans-serif;
+	transition:0.5s;
+}
+.S1:hover{
+	background:none;
+}
+.A1{
+/*	position:relative;
+	top:150px;*/
+	/*box-sizing: border-box;*/
+	text-decoration:none;
+	color:white;
+}
+.S11{
+	background:#38dcc8;
+	margin-top:70px;
+}
+.S12{
+	background:#259385;
+	margin-top:70px;
+}
+#Mdiv3{
+	background:#38dcc8;
+	position:relative;
+	bottom:180px;
+	width:100%;
+	height:900px;
+}
+#mujiki{
+	position:relative;
+	bottom:180px;
+	height:960px;
+}
+#img1{
+	display:inline-block;
+	position:relative;
+	width:635px;
+	/*height:410px;*/
+	background-image:url(../Img/Qar1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.ImgHegit{
+	height:480px;
+}
+#img2{
+	margin-left:-5px;
+	display:inline-block;
+	position:relative;
+	width:635px;
+	/*height:410px;*/
+	background-image:url(../Img/Qar2.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#img3{
+	margin-left:-5px;
+	display:inline-block;
+	position:relative;
+	width:635px;
+	/*height:410px;*/
+	background-image:url(../Img/Qar3.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#img4{
+	margin-top:-5px;
+	display:inline-block;
+	position:relative;
+	width:635px;
+	/*height:410px;*/
+	background-image:url(../Img/Qar4.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#img5{
+	margin-left:-5px;
+	margin-top:-5px;
+	display:inline-block;
+	position:relative;
+	width:635px;
+	/*height:410px;*/
+	background-image:url(../Img/Qar5.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#img6{
+	margin-left:-5px;
+	margin-top:-5px;
+	display:inline-block;
+	position:relative;
+	width:635px;
+	/*height:410px;*/
+	background-image:url(../Img/Qar6.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.imh{
+	position: absolute;
+	bottom:0;
+	right:0;
+	transition:1s;
+	/*width:0%;*/
+	height:0%;
+	background:#38dcc8aa;
+}
+#img1:hover .imh{
+	cursor:pointer;
+	width:100%;
+	height:100%;
+}
+#img2:hover .imh{
+	cursor:pointer;
+	width:100%;
+	height:100%;
+}
+#img3:hover .imh{
+	cursor:pointer;
+	width:100%;
+	height:100%;
+}
+#img4:hover .imh{
+	cursor:pointer;
+	width:100%;
+	height:100%;
+}
+#img5:hover .imh{
+	cursor:pointer;
+	width:100%;
+	height:100%;
+}
+#img6:hover .imh{
+	cursor:pointer;
+	width:100%;
+	height:100%;
+}
+
+#qarr{
+	padding:15px 15px 15px 15px;
+	box-sizing:border-box;
+	font-size:60px;
+	color:white;
+	font-family:sans-serif;
+	position:relative;
+	top:150px;
+	/*margin:auto;*/
+	width:892px;
+	height:127px;
+	border:10px solid white;
+}
+#Mmdiv{
+	position:relative;
+	top:300px;
+	right:100px;
+}
+#text1{
+	display:inline-block;
+	color:white;
+}
+#PP1{
+	font-family:sans-serif;
+	font-size:30px;
+}
+#PP2{
+	font-size:18px;
+	position:relative;
+	top:20px;
+}
+#PP3{
+	font-size:16px;
+	position:relative;
+	top:50px;
+}
+#hreff{
+	font-family:sans-serif;
+	text-decoration:none;
+	color:white;
+}
+#Ic2{
+	position:relative;
+	top:70px;
+}
+.i2{
+	margin-right:10px;
+	color:white;
+}
+
+#Blank{
+	vertical-align:top;
+	display:inline-block;
+	position:relative;
+	left:200px;
+}
+.Input1{
+	font-family:sans-serif;
+	border:none;
+	padding:5px;
+	box-sizing:border-box;
+	margin-top:15px;
+	/*bottom:100px;*/
+	width:460px;
+	height:30px;
+}
+.Input1::placeholder{
+	color:#38dcc8;
+}
+#area1{
+	font-family:sans-serif;
+	padding:5px;
+	box-sizing:border-box;
+	margin-top:15px;
+	border:none;
+	width:460px;
+	height:130px;
+	resize:none;
+}
+#area1::placeholder{
+	color:#38dcc8;
+}
+#But{
+	font-family:sans-serif;
+	color:#38dcc8;
+	border:none;
+	width:89px;
+	height:30px;
+}
+#Lp{
+	display:inline-block;
+	position:relative;
+	top:40px;
+
+	color:#38dcc8;
+}
+#id{
+	text-decoration:none;
+	color:#38dcc8;
+}
+#ol{
+	margin-left:420px;
+		position:relative;
+	top:40px;
+	display:inline-block;
+}
+
+
+
+
+
+/*.qar1{
+	text-decoration:none;
+	padding:30px;
+	box-sizing:border-box;
+	position:relative;
+	top:150px;
+	margin:auto;
+	font-size:40px;
+	color:white;
+	font-family:sans-serif;
+	width:892px;
+	height:133px;
+	border:10px solid white;
+	background:#91e8dd;
+	transition:0.5s;
+}
+.qar1:hover{
+	cursor:pointer;
+	background:none
+}
+.q11{
+	margin-top:70px;
+	background:#38dcc8;
+}
+.q12{
+	margin-top:70px;
+	background:#259385;
+}*/
